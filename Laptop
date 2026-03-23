@@ -6,7 +6,7 @@ public class Laptop extends Hardware {
     
     @Override
     public String interpretSpec(){
-        return spec + " GB RAM";
+        return SPEC + " GB RAM";
     }
     
     public static class LaptopBuilder{
@@ -36,8 +36,5 @@ public class Laptop extends Hardware {
         public Laptop build(){
             return new Laptop(this);
         }
-        
-        
     }
 }
-
