@@ -6,10 +6,11 @@ public class Phone extends Hardware{
     
     @Override
     public String interpretSpec(){
-        return spec + " Megapixels";
+        return SPEC + " Megapixels";
     }
     
     public static class PhoneBuilder{
+        
         private String brand, type;
         private int spec, id;
         
